@@ -7,6 +7,8 @@
   padding: 0;
 }
 body {
+  max-width: 1320px;
+  max-height: fit-content;
   font-family: 'Merriweather', serif;
   font-family: 'Inter', sans-serif;
   margin-top: 20px;
@@ -109,20 +111,17 @@ body {
   padding: 120px;
   margin: 0 auto;
 }
-.main-section2-content {
+/* .main-section2-content {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .main-section2-content h2 {
   color: rgb(255, 255, 255);
   font-family: Merriweather;
   font-size: 64px;
   font-weight: 900;
-  line-height: 88px;
-  letter-spacing: 11%;
-  text-align: left;
 }
 .main-section2-content p {
   color: rgba(255, 255, 255, 0.8);
@@ -161,20 +160,80 @@ body {
   font-family: Inter;
   font-size: 32px;
   font-weight: 600;
-  line-height: 56px;
-  letter-spacing: 0%;
-  text-align: center;
-  text-transform: capitalize;
 }
 .party-place-section button {
   color: white;
   font-size: 20px;
   padding: 15px 20px;
   border-radius: 8px;
-
+  margin-top: 5px;
   background: rgb(255, 0, 0);
 }
 
 .party-place-section span {
   color: red;
+}
+.offer-section {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border: 2px solid black;
+}
+.offer-content-left {
+  border: 2px solid red;
+}
+.offer-content-left h4 {
+  color: red;
+}
+.offer-content-center {
+  border: 5px solid red;
+  border-radius: 100%;
+  padding: 10px;
+}
+.offer-content-center img {
+  width: 340px;
+  height: 340px;
+
+  border-radius: 100%;
+}
+.offer-content-right {
+  border: 2px solid black;
+}
+.offer-content-right img {
+  width: 150px;
+  height: 100px;
+}
+.functional {
+  padding: 0px 100px;
+  text-align: center;
+}
+.functional h4 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+}
+.functional h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+}
+.functional span {
+  color: red;
+  font-family: Merriweather;
+}
+.img {
+  background-image: url('images/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
